@@ -21,12 +21,12 @@ body {
 
 main {
     width: 339px;
-    height: 612px;
-    background: #F4F4F4;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 44px 24px 23px;
-}
+    height: 612px;                      /*padding: 44px                  ( todos os lados) */
+    background: #F4F4F4;              /* padding: 44px 24px            ( 1 valor,Cima e baixo 2 valor, dos lados)*/
+    border-radius: 20px;                /*padding: 44px 24px 23px        ( 1 valor,Cima 2 valor, dos lados e o 3 valor em baixo)*/
+    margin: 0 auto;                     /*padding: 44px 24px 23px 28px   ( todos os quatro lados com um valor so seu)*/
+    padding: 44px 24px 23px;                                                                                
+} 
 
 label {
     color: #777777;
@@ -121,3 +121,7 @@ section {
     width: 33px;
     height: 30px;
 }
+
+
+
+                  /*375 360 280 230 */
