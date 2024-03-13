@@ -21,12 +21,16 @@ body {
 
 main {
     width: 339px;
-    height: 612px;                      /*padding: 44px                  ( todos os lados) */
-    background: #F4F4F4;              /* padding: 44px 24px            ( 1 valor,Cima e baixo 2 valor, dos lados)*/
-    border-radius: 20px;                /*padding: 44px 24px 23px        ( 1 valor,Cima 2 valor, dos lados e o 3 valor em baixo)*/
-    margin: 0 auto;                     /*padding: 44px 24px 23px 28px   ( todos os quatro lados com um valor so seu)*/
-    padding: 44px 24px 23px;                                                                                
-} 
+    height: 612px;
+    /*padding: 44px                  ( todos os lados) */
+    background: #F4F4F4;
+    /* padding: 44px 24px            ( 1 valor,Cima e baixo 2 valor, dos lados)*/
+    border-radius: 20px;
+    /*padding: 44px 24px 23px        ( 1 valor,Cima 2 valor, dos lados e o 3 valor em baixo)*/
+    margin: 0 auto;
+    /*padding: 44px 24px 23px 28px   ( todos os quatro lados com um valor so seu)*/
+    padding: 44px 24px 23px;
+}
 
 label {
     color: #777777;
@@ -110,7 +114,8 @@ section {
 
 }
 
-.currency-value , .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     color: rgba(85, 85, 85, 1);
     font-Weight: 700;
     font-Size: 18px;
@@ -122,6 +127,9 @@ section {
     height: 30px;
 }
 
+@media screen and (max-width: 500px) {
 
-
-                  /*375 360 280 230 */
+    .main{
+       background: #346478;
+    }
+}
