@@ -129,7 +129,27 @@ section {
 
 @media screen and (max-width: 500px) {
 
-    .main{
-       background: #346478;
-    }
+   .img-logo-coin{
+    width: 60px;
+    height: 59px;
+   }
+
+   .main{
+    width: 271px;
+    height: 537px;
+    padding: 28px 22px 23px;
+   }
+
+   .select, input{
+    margin-bottom: 3px;
+
+   }
+
+   button{
+    margin-top: 10px;
+   }
+
+   section{
+    margin:16px 0px 1px 0px;
+   }
 }
