@@ -6,7 +6,6 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
     const currencyValueConverted = document.querySelector(".currency-value")
 
-    
     const dolarToday = 5.2
     const euroToday = 6.2
     const libratoday = 4.3 
